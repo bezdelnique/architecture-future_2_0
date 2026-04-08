@@ -1,1 +1,4 @@
 /.idea/
+/task3/tech_radar/node_modules/
+/task3/tech_radar/.techradar/
+/task3/tech_radar/build/
