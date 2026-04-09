@@ -1,10 +1,10 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="XkXduYWkymklfdMEz02o">
-    <mxGraphModel dx="2297" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2550" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="g34dJLu0iG8nJDtEDUL4-4" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM1&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Большой&lt;br&gt;future-net: Airflow, Dremeo&lt;br&gt;internet: -" vertex="1">
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-4" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;b&gt;VM1&lt;/b&gt;&lt;br&gt;CPU: large&lt;br&gt;RAM: large&lt;br&gt;HDD: large&lt;br&gt;future-net: Airflow, Dremeo&lt;br&gt;internet: -" vertex="1">
           <mxGeometry height="220" width="200" x="150" y="180" as="geometry" />
         </mxCell>
         <mxCell id="g34dJLu0iG8nJDtEDUL4-5" parent="g34dJLu0iG8nJDtEDUL4-4" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="DataHub" vertex="1">
@@ -12,7 +12,7 @@
             <mxPoint x="10" y="120" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g34dJLu0iG8nJDtEDUL4-6" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM2&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Средний&lt;br&gt;future-net: -&lt;br&gt;internet: Frontend, Spring" vertex="1">
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-6" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;b&gt;VM2&lt;/b&gt;&lt;br&gt;CPU: medium&lt;br&gt;RAM: medium&lt;br&gt;HDD: medium&lt;br&gt;future-net: -&lt;br&gt;internet: Frontend, Spring" vertex="1">
           <mxGeometry height="215" width="200" x="450" y="180" as="geometry" />
         </mxCell>
         <mxCell id="g34dJLu0iG8nJDtEDUL4-7" parent="g34dJLu0iG8nJDtEDUL4-6" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Управление клиникой (Actual)" vertex="1">
@@ -20,7 +20,7 @@
             <mxPoint x="20" y="120" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g34dJLu0iG8nJDtEDUL4-12" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM3&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Огромный&lt;br&gt;future-net: UI, MetaData, API&lt;br&gt;internet: -" vertex="1">
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-12" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;b&gt;VM3&lt;/b&gt;&lt;br&gt;CPU: large&lt;br&gt;RAM: large&lt;br&gt;HDD: huge&lt;br&gt;future-net: UI, MetaData, API&lt;br&gt;internet: -" vertex="1">
           <mxGeometry height="210" width="205" x="740" y="170" as="geometry" />
         </mxCell>
         <mxCell id="g34dJLu0iG8nJDtEDUL4-13" parent="g34dJLu0iG8nJDtEDUL4-12" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Data Lakehouse" vertex="1">
@@ -49,7 +49,7 @@
             <mxGeometry height="770" width="1420" x="-340" y="80" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="g34dJLu0iG8nJDtEDUL4-25" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM4&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Маленький&lt;br&gt;future-net:&amp;nbsp;&lt;br&gt;internet: -" vertex="1">
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-25" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;b&gt;VM4&lt;/b&gt;&lt;br&gt;CPU:small&lt;br&gt;RAM: small&lt;br&gt;HDD: small&lt;br&gt;future-net:&amp;nbsp;&lt;br&gt;internet: -" vertex="1">
           <mxGeometry height="210" width="205" x="140" y="460" as="geometry" />
         </mxCell>
         <mxCell id="g34dJLu0iG8nJDtEDUL4-26" parent="g34dJLu0iG8nJDtEDUL4-25" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="BI" vertex="1">
@@ -57,7 +57,7 @@
             <mxPoint x="53" y="120" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g34dJLu0iG8nJDtEDUL4-27" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM5&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Маленький&lt;br&gt;future-net: App&lt;br&gt;internet: -" vertex="1">
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-27" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;b&gt;VM5&lt;/b&gt;&lt;br&gt;CPU:medum&lt;br&gt;RAM: medum&lt;br&gt;HDD: small&lt;br&gt;future-net: App&lt;br&gt;internet: -" vertex="1">
           <mxGeometry height="210" width="205" x="439" y="460" as="geometry" />
         </mxCell>
         <mxCell id="g34dJLu0iG8nJDtEDUL4-28" parent="g34dJLu0iG8nJDtEDUL4-27" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="ИИ-сервисы" vertex="1">
@@ -65,7 +65,7 @@
             <mxPoint x="53" y="120" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g34dJLu0iG8nJDtEDUL4-29" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM5&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Маленький&lt;br&gt;future-net: App&lt;br&gt;internet: -" vertex="1">
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-29" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;b&gt;VM5&lt;/b&gt;&lt;br&gt;CPU: medum&lt;br&gt;RAM: medum&lt;br&gt;HDD: small&lt;br&gt;future-net: App&lt;br&gt;internet: -" vertex="1">
           <mxGeometry height="210" width="205" x="730" y="460" as="geometry" />
         </mxCell>
         <mxCell id="g34dJLu0iG8nJDtEDUL4-30" parent="g34dJLu0iG8nJDtEDUL4-29" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Финтех сервисы" vertex="1">
