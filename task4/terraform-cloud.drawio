@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="XkXduYWkymklfdMEz02o">
-    <mxGraphModel dx="2550" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2428" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
             <mxPoint x="53" y="120" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g34dJLu0iG8nJDtEDUL4-29" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;b&gt;VM5&lt;/b&gt;&lt;br&gt;CPU: medum&lt;br&gt;RAM: medum&lt;br&gt;HDD: small&lt;br&gt;future-net: App&lt;br&gt;internet: -" vertex="1">
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-29" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;b&gt;VM6&lt;/b&gt;&lt;br&gt;CPU: medum&lt;br&gt;RAM: medum&lt;br&gt;HDD: small&lt;br&gt;future-net: App&lt;br&gt;internet: -" vertex="1">
           <mxGeometry height="210" width="205" x="730" y="460" as="geometry" />
         </mxCell>
         <mxCell id="g34dJLu0iG8nJDtEDUL4-30" parent="g34dJLu0iG8nJDtEDUL4-29" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Финтех сервисы" vertex="1">
