@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="XkXduYWkymklfdMEz02o">
+    <mxGraphModel dx="2297" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-4" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM1&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Большой&lt;br&gt;future-net: Airflow, Dremeo&lt;br&gt;internet: -" vertex="1">
+          <mxGeometry height="220" width="200" x="150" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-5" parent="g34dJLu0iG8nJDtEDUL4-4" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="DataHub" vertex="1">
+          <mxGeometry height="80" relative="1" width="100" as="geometry">
+            <mxPoint x="10" y="120" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-6" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM2&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Средний&lt;br&gt;future-net: -&lt;br&gt;internet: Frontend, Spring" vertex="1">
+          <mxGeometry height="215" width="200" x="450" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-7" parent="g34dJLu0iG8nJDtEDUL4-6" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Управление клиникой (Actual)" vertex="1">
+          <mxGeometry height="80" relative="1" width="100" as="geometry">
+            <mxPoint x="20" y="120" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-12" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM3&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Огромный&lt;br&gt;future-net: UI, MetaData, API&lt;br&gt;internet: -" vertex="1">
+          <mxGeometry height="210" width="205" x="740" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-13" parent="g34dJLu0iG8nJDtEDUL4-12" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Data Lakehouse" vertex="1">
+          <mxGeometry height="80" relative="1" width="100" as="geometry">
+            <mxPoint x="53" y="120" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Контур легаси систем" c4Type="SystemScopeBoundary" c4Application="Legacy" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="g34dJLu0iG8nJDtEDUL4-14">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="280" width="280" x="-260" y="200" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Контур актуальный" c4Type="SystemScopeBoundary" c4Application="future-net" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="g34dJLu0iG8nJDtEDUL4-15">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="630" width="920" x="110" y="150" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-19" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Power BI&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="-220" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-22" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;DWH&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="-220" y="230" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Internet" c4Type="SystemScopeBoundary" c4Application="web" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="g34dJLu0iG8nJDtEDUL4-24">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="770" width="1420" x="-340" y="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-25" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM4&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Маленький&lt;br&gt;future-net:&amp;nbsp;&lt;br&gt;internet: -" vertex="1">
+          <mxGeometry height="210" width="205" x="140" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-26" parent="g34dJLu0iG8nJDtEDUL4-25" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="BI" vertex="1">
+          <mxGeometry height="80" relative="1" width="100" as="geometry">
+            <mxPoint x="53" y="120" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-27" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM5&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Маленький&lt;br&gt;future-net: App&lt;br&gt;internet: -" vertex="1">
+          <mxGeometry height="210" width="205" x="439" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-28" parent="g34dJLu0iG8nJDtEDUL4-27" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="ИИ-сервисы" vertex="1">
+          <mxGeometry height="80" relative="1" width="100" as="geometry">
+            <mxPoint x="53" y="120" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-29" parent="1" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="VM5&lt;br&gt;CPU:&amp;nbsp;&lt;br&gt;RAM:&lt;br&gt;HDD: Маленький&lt;br&gt;future-net: App&lt;br&gt;internet: -" vertex="1">
+          <mxGeometry height="210" width="205" x="730" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="g34dJLu0iG8nJDtEDUL4-30" parent="g34dJLu0iG8nJDtEDUL4-29" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="Финтех сервисы" vertex="1">
+          <mxGeometry height="80" relative="1" width="100" as="geometry">
+            <mxPoint x="53" y="120" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
