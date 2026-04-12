@@ -1,28 +1,15 @@
-terraform {
-  required_providers {
-    yandex = {
-      source = "yandex-cloud/yandex"
-    }
-  }
-  required_version = ">= 0.13"
-}
-
-provider "yandex" {
-  zone = var.zone
-}
-
 data "yandex_compute_image" "ubuntu" {
   family = "ubuntu-2204-lts"
 }
 
-resource "yandex_vpc_network" "network-1" {
-  name = "network1"
+resource "yandex_vpc_network" "future-net" {
+  name = "future-net"
 }
 
-resource "yandex_vpc_subnet" "subnet-1" {
-  name           = "subnet1"
+resource "yandex_vpc_subnet" "future-subnet" {
+  name           = "future-subnet"
   zone           = var.zone
-  network_id     = yandex_vpc_network.network-1.id
+  network_id     = yandex_vpc_network.future-net.id
   v4_cidr_blocks = ["192.168.10.0/24"]
 }
 
@@ -53,7 +40,7 @@ resource "yandex_compute_instance" "vm" {
   }
 
   network_interface {
-    subnet_id = yandex_vpc_subnet.subnet-1.id
+    subnet_id = yandex_vpc_subnet.future-subnet.id
     nat       = each.value.nat
   }
 
